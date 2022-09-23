@@ -24,7 +24,7 @@ class UserLogin extends Component {
       this.props.history.push("/userLogin");
       return false;
     }
-     e.preventDefault();
+    e.preventDefault();
     let user = {
       email: this.state.email,
       password: this.state.password,
@@ -129,7 +129,6 @@ class UserLogin extends Component {
                 <input
                   type="password"
                   id="password"
-                  className="form-control text-center"
                   name="password"
                   placeholder="Password"
                   value={this.state.password}
@@ -138,6 +137,7 @@ class UserLogin extends Component {
                   onFocus={this.removeAlert}
                   required
                 />
+
                 <span style={{ color: "red" }} id="passwordVR"></span>
               </div>
               <div className="row my-3 justify-content-center align-items-center">
@@ -151,7 +151,11 @@ class UserLogin extends Component {
                 </div>
                 <div className="col-sm-6 mt-3 ">
                   <NavLink to="/email-for-forgot-password">
-                    <h6 style={{color:"greenyellow",  textDecoration: "none"}}>Forgot Password?</h6>
+                    <h6
+                      style={{ color: "greenyellow", textDecoration: "none" }}
+                    >
+                      Forgot Password?
+                    </h6>
                   </NavLink>
                 </div>
               </div>
