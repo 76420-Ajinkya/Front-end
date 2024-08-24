@@ -28,7 +28,7 @@ class AppointmentHistory extends Component {
         console.log(response.data);
         this.setState({
           appointments: response.data,
-          message: "Appointments retrieved successfully",
+          message: "Appointments retrieved successfully!!",
         });
       })
       .catch((error) => {
