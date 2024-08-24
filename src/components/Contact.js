@@ -8,10 +8,10 @@ const Contact = () => {
         <div class="bg-light py-2">
           <div>
             <h2 className="text-center">
-              <b>CONTACT US...</b>  <br />
+              <b>CONTACT US...</b> <br />
             </h2>
           </div>
-
+          {/* hey first commit */}
           <div class="row text-center d-flex justify-content-center">
             <div class="col-lg-3 col-sm-6 mb-2">
               <div class="bg-white rounded shadow-sm py-2 px-2">
@@ -66,7 +66,8 @@ const Contact = () => {
                 <span class="small text-uppercase text-muted">
                   {" "}
                   Address :Candent Heights,Chandani-chowk,Kothrud,
-                   <br/>Pune : 415510{" "}
+                  <br />
+                  Pune : 415510{" "}
                 </span>
                 <ul class="social mb-0 list-inline mt-3">
                   <li class="list-inline-item">
@@ -92,7 +93,6 @@ const Contact = () => {
                 </ul>
               </div>
             </div>
-            
             <h2 class="font-weight-light">
               <b>Our Team Is Available 24/7</b> <br />
               <br />
